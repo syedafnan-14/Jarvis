@@ -1,0 +1,18 @@
+OpenAI response for prompt: jarvis using artificial intelligence write a python program to add two numbers and multiply two numbers
+ ********************
+
+
+
+# Program to add & multiply two numbers
+ 
+# Function to add two numbers 
+def add(num1, num2):
+   return num1 + num2
+
+print("Sum of two numbers: ", add(123, 11))
+
+# Function to multiply two numbers 
+def multiply(num1, num2):
+   return num1 * num2
+
+print("Multiplication of two numbers: ", multiply(5, 6))

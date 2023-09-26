@@ -1,0 +1,35 @@
+OpenAI response for prompt: using artificial intelligence write a python program to add two numbers
+ ********************
+
+
+
+#program to add two numbers using artificial intelligence
+
+#importing necessary libraries
+import numpy as np
+import pandas as pd
+
+#defining a class
+class AI_Add:
+    
+    #defining a constructor
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+    
+    #defining a method for sum of two numbers
+    def sum(self):
+        return self.a + self.b
+
+#storing values in variables 
+a = int(input("Enter A:"))
+b= int(input("Enter B:"))
+
+#creating an object
+obj = AI_Add(a,b)
+
+#calling function
+result = obj.sum()
+
+#printing result
+print('Sum:', result)

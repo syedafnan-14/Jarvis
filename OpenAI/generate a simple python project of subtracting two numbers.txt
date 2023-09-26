@@ -1,0 +1,19 @@
+OpenAI response for prompt: jarvis using artificial intelligence generate a simple python project of subtracting two numbers
+ ********************
+
+
+
+def subtractNumbers(num1, num2): 
+  
+    # Subtract both the numbers 
+    subtract = num1 - num2 
+  
+    # prints the subtraction result 
+    print("Subtraction of two numbers =", subtract) 
+  
+# Driver plugin 
+num1 = int(input("Enter first number: ")) 
+num2 = int(input("Enter second number: ")) 
+  
+# Calling the subtractNumbers function 
+subtractNumbers(num1, num2)

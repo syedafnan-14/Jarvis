@@ -1,0 +1,29 @@
+OpenAI response for prompt: jarvis using artificial intelligence write a python program to add two numbers
+ ********************
+
+
+
+# This program demonstrates an AI-powered program to add two numbers 
+
+# Importing the required libraries 
+import numpy as np 
+import tensorflow as tf
+
+# Defining the two numbers 
+num1 = 5 
+num2 = 10
+
+# Creating a neural network for the program
+model = tf.keras.Sequential([tf.keras.layers.Dense(10, input_dim = 1, activation = 'relu'), tf.keras.layers.Dense(1)])
+
+# Compiling the model
+model.compile(loss = 'mean_squared_error', optimizer = 'sgd')
+
+# Fitting the model 
+model.fit([num1], [num2], epochs = 200)
+
+# Evaluating the model 
+addition = model.evaluate([num1], [num2])
+
+# Printing the result 
+print('The sum of ', num1, ' and ', num2, ' is: ', addition)
